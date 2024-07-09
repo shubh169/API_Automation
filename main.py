@@ -1,5 +1,7 @@
 from art import logo
+
 print(logo)
+
 def caesar(start_text,key,cipher_direction):
     end_text=""
     if cipher_direction=='decode':
@@ -28,7 +30,7 @@ while True:
     if continue_program=='Yes' or continue_program=='yes':
         start_program()
     else:
-        print("Good Bye.")
+        print("good bye.")
         break
 
     
